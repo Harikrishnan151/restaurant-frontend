@@ -1,0 +1,58 @@
+  Restaurant listing- App
+
+
+1. Create a new project folder Restaurant-listing-App
+2. inside it create react project - npx create-react-app resturant-listing-app
+3. clear unwanted files
+4. install third party libraries
+     1. React bootstrap
+     2.fontawsomme
+     3.googlefonts
+     4.bootswatch
+
+5. create components
+    1. Header folder
+      Header.jsx
+      Header.css
+
+    2. Allrest folder(Main)
+        AllRest.jsx
+        AllRest.css
+
+    3. Footer
+      Footer.jsx
+      Footer.css
+
+6. Create json server for running 
+
+7. Api fetching
+
+8. AXIOS - npm i axios
+   Introduction to Axios: Axios, which is a popular library
+   is mainly used to send asynchronous HTTP requests to REST endpoints.
+   This library is very useful to perform CRUD operations.
+
+   This popular library is used to communicate with the backend. Axios supports the Promise API, native to JS ES6.
+   Using Axios we make API requests in our application. Once the request is made we get the data in Return,
+   and then we use this data in our project.
+
+9. Get all Restaurant data (Api call) - in AllRest component
+      ->import axios
+      ->create a function for fetching data
+      ->function call using useEffect
+      ->create a state for holding the data
+
+10. Path setup
+    localhost:3000 - AllRest component
+    localhost:3001/view/1 - ViewRest Component
+  
+  Routing - react - router -dom - library
+
+  ->BrowserRouter - To render full application
+  ->Routes - used to hold multiple Routes
+  ->Route - used for single component path
+
+  install - npm i react-router-dom
+
+11.  LINK
+    used to redirect one page from another
